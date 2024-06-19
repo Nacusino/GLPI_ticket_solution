@@ -1,0 +1,46 @@
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Installing glpi_plugin_fields_containers"
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Installing glpi_plugin_fields_containerdisplayconditions"
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Installing glpi_plugin_fields_fields"
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Updating glpi_plugin_fields_fields"
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Installing glpi_plugin_fields_labeltranslations"
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Installing glpi_plugin_fields_profiles"
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Installing glpi_plugin_fields_statusoverrides"
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Изменение структуры БД - glpi_plugin_fields_fields"
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Значения настроек добавлены для stable_search_options (plugin:fields)."
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Задача завершена."
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Regenerate containers files"
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Задача завершена."
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Обновление созданных файлов контейнеров"
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Задача завершена."
+2024-05-14 23:25:33 [2@DESKTOP-4FI903C]
+0 секунд for "Обновление автоматически раскрывающегося списка файлов"
+2024-05-14 23:30:30 [2@DESKTOP-4FI903C]
+0 секунд for "Updating glpi_plugin_fields_fields"
+2024-05-14 23:30:30 [2@DESKTOP-4FI903C]
+0 секунд for "Изменение структуры БД - glpi_plugin_fields_fields"
+2024-05-14 23:30:30 [2@DESKTOP-4FI903C]
+0 секунд for "Задача завершена."
+2024-05-14 23:30:30 [2@DESKTOP-4FI903C]
+0 секунд for "Regenerate containers files"
+2024-05-14 23:30:30 [2@DESKTOP-4FI903C]
+0 секунд for "Задача завершена."
+2024-05-14 23:30:30 [2@DESKTOP-4FI903C]
+0 секунд for "Обновление созданных файлов контейнеров"
+2024-05-14 23:30:30 [2@DESKTOP-4FI903C]
+0 секунд for "Задача завершена."
+2024-05-14 23:30:30 [2@DESKTOP-4FI903C]
+0 секунд for "Обновление автоматически раскрывающегося списка файлов"

@@ -1,0 +1,144 @@
+[2024-05-15 17:41:39] glpisqllog.ERROR: DBmysql::doQuery() in F:\OSPanel\domains\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_tickets_users` (`type`, `use_notification`, `alternative_email`, `tickets_id`, `users_id`) VALUES ('2', '', '', '5', '2')
+  Error: Incorrect integer value: '' for column 'use_notification' at row 1
+  Backtrace :
+  src\DBmysql.php:1381                               DBmysql->doQuery()
+  src\CommonDBTM.php:729                             DBmysql->insert()
+  src\CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  src\CommonITILObject.php:8700                      CommonDBTM->add()
+  src\CommonITILObject.php:2868                      CommonITILObject->updateActors()
+  src\Ticket.php:2225                                CommonITILObject->post_addItem()
+  src\CommonDBTM.php:1343                            Ticket->post_addItem()
+  front\ticket.form.php:80                           CommonDBTM->add()
+  public\index.php:82                                require()
+  {"user":"2@DESKTOP-4FI903C"} 
+[2024-05-20 09:36:37] glpisqllog.ERROR: DBmysql::doQuery() in F:\OSPanel\domains\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_itilsolutions`.* FROM `glpi_itilsolutions` ORDER BY `glpi_itilsolutions`.`name` LIMIT 100
+  Error: Unknown column 'glpi_itilsolutions.name' in 'order clause'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Dropdown.php:3347                              DBmysql->request()
+  ajax\getDropdownValue.php:50                       Dropdown::getDropdownValue()
+  public\index.php:82                                require()
+  {"user":"2@DESKTOP-4FI903C"} 
+[2024-05-20 09:47:03] glpisqllog.ERROR: DBmysql::doQuery() in F:\OSPanel\domains\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_itilsolutions`.* FROM `glpi_itilsolutions` ORDER BY `glpi_itilsolutions`.`name` LIMIT 100
+  Error: Unknown column 'glpi_itilsolutions.name' in 'order clause'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Dropdown.php:3347                              DBmysql->request()
+  ajax\getDropdownValue.php:50                       Dropdown::getDropdownValue()
+  public\index.php:82                                require()
+  {"user":"2@DESKTOP-4FI903C"} 
+[2024-05-20 09:47:05] glpisqllog.ERROR: DBmysql::doQuery() in F:\OSPanel\domains\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_itilsolutions`.* FROM `glpi_itilsolutions` ORDER BY `glpi_itilsolutions`.`name` LIMIT 100
+  Error: Unknown column 'glpi_itilsolutions.name' in 'order clause'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Dropdown.php:3347                              DBmysql->request()
+  ajax\getDropdownValue.php:50                       Dropdown::getDropdownValue()
+  public\index.php:82                                require()
+  {"user":"2@DESKTOP-4FI903C"} 
+[2024-05-20 09:47:08] glpisqllog.ERROR: DBmysql::doQuery() in F:\OSPanel\domains\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_itilsolutions`.* FROM `glpi_itilsolutions` ORDER BY `glpi_itilsolutions`.`name` LIMIT 100
+  Error: Unknown column 'glpi_itilsolutions.name' in 'order clause'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Dropdown.php:3347                              DBmysql->request()
+  ajax\getDropdownValue.php:50                       Dropdown::getDropdownValue()
+  public\index.php:82                                require()
+  {"user":"2@DESKTOP-4FI903C"} 
+[2024-05-20 09:51:01] glpisqllog.ERROR: DBmysql::doQuery() in F:\OSPanel\domains\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_itilsolutions`.* FROM `glpi_itilsolutions` ORDER BY `glpi_itilsolutions`.`name` LIMIT 100
+  Error: Unknown column 'glpi_itilsolutions.name' in 'order clause'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Dropdown.php:3347                              DBmysql->request()
+  ajax\getDropdownValue.php:50                       Dropdown::getDropdownValue()
+  public\index.php:82                                require()
+  {"user":"2@DESKTOP-4FI903C"} 
+[2024-05-20 09:51:05] glpisqllog.ERROR: DBmysql::doQuery() in F:\OSPanel\domains\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_itilsolutions`.* FROM `glpi_itilsolutions` ORDER BY `glpi_itilsolutions`.`name` LIMIT 100
+  Error: Unknown column 'glpi_itilsolutions.name' in 'order clause'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Dropdown.php:3347                              DBmysql->request()
+  ajax\getDropdownValue.php:50                       Dropdown::getDropdownValue()
+  public\index.php:82                                require()
+  {"user":"2@DESKTOP-4FI903C"} 
+[2024-05-20 09:51:07] glpisqllog.ERROR: DBmysql::doQuery() in F:\OSPanel\domains\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_itilsolutions`.* FROM `glpi_itilsolutions` ORDER BY `glpi_itilsolutions`.`name` LIMIT 100
+  Error: Unknown column 'glpi_itilsolutions.name' in 'order clause'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Dropdown.php:3347                              DBmysql->request()
+  ajax\getDropdownValue.php:50                       Dropdown::getDropdownValue()
+  public\index.php:82                                require()
+  {"user":"2@DESKTOP-4FI903C"} 
+[2024-05-20 09:54:12] glpisqllog.ERROR: DBmysql::doQuery() in F:\OSPanel\domains\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_itilsolutions`.* FROM `glpi_itilsolutions` ORDER BY `glpi_itilsolutions`.`name` LIMIT 100
+  Error: Unknown column 'glpi_itilsolutions.name' in 'order clause'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Dropdown.php:3347                              DBmysql->request()
+  ajax\getDropdownValue.php:50                       Dropdown::getDropdownValue()
+  public\index.php:82                                require()
+  {"user":"2@DESKTOP-4FI903C"} 
+[2024-05-20 09:57:02] glpisqllog.ERROR: DBmysql::doQuery() in F:\OSPanel\domains\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_itilsolutions`.* FROM `glpi_itilsolutions` ORDER BY `glpi_itilsolutions`.`name` LIMIT 100
+  Error: Unknown column 'glpi_itilsolutions.name' in 'order clause'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Dropdown.php:3347                              DBmysql->request()
+  ajax\getDropdownValue.php:50                       Dropdown::getDropdownValue()
+  public\index.php:82                                require()
+  {"user":"2@DESKTOP-4FI903C"} 
+[2024-05-22 23:28:30] glpisqllog.WARNING: DBmysql::doQuery() in F:\OSPanel\domains\glpi\src\DBmysql.php line 443
+  *** MySQL query warnings:
+  SQL: SELECT `glpi_tickets`.*, '' AS `transname`, '' AS `transcomment` FROM `glpi_tickets` WHERE `glpi_tickets`.`id` = 'notold'
+  Warnings: 
+1292: Truncated incorrect DOUBLE value: 'notold'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Dropdown.php:550                               DBmysql->request()
+  src\Search.php:2116                                Dropdown::getDropdownName()
+  src\Search.php:2026                                Search::computeTitle()
+  src\Search.php:208                                 Search::outputData()
+  front\report.dynamic.php:136                       Search::showList()
+  public\index.php:82                                require()
+  {"user":"2@DESKTOP-4FI903C"} 
+[2024-05-22 23:28:40] glpisqllog.WARNING: DBmysql::doQuery() in F:\OSPanel\domains\glpi\src\DBmysql.php line 443
+  *** MySQL query warnings:
+  SQL: SELECT `glpi_tickets`.*, '' AS `transname`, '' AS `transcomment` FROM `glpi_tickets` WHERE `glpi_tickets`.`id` = 'notold'
+  Warnings: 
+1292: Truncated incorrect DOUBLE value: 'notold'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Dropdown.php:550                               DBmysql->request()
+  src\Search.php:2116                                Dropdown::getDropdownName()
+  src\Search.php:2026                                Search::computeTitle()
+  src\Search.php:208                                 Search::outputData()
+  front\report.dynamic.php:136                       Search::showList()
+  public\index.php:82                                require()
+  {"user":"2@DESKTOP-4FI903C"} 

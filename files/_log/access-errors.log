@@ -1,0 +1,18 @@
+2024-05-12 19:34:55 [2@DESKTOP-4FI903C]
+CSRF check failed for User ID: 2 at /front/user.form.php
+2024-05-12 19:34:58 [2@DESKTOP-4FI903C]
+CSRF check failed for User ID: 2 at /front/user.form.php
+2024-05-21 13:53:27 [2@DESKTOP-4FI903C]
+CSRF check failed for User ID: 2 at /plugins/fields/front/container.form.php
+2024-05-21 20:56:20 [2@DESKTOP-4FI903C]
+CSRF check failed for User ID: 2 at /ajax/getDropdownValue.php
+2024-05-21 20:56:20 [2@DESKTOP-4FI903C]
+CSRF check failed for User ID: 2 at /ajax/getDropdownValue.php
+2024-05-22 21:40:35 [2@DESKTOP-4FI903C]
+CSRF check failed for User ID: 2 at /front/ticket.form.php
+2024-05-22 21:40:38 [2@DESKTOP-4FI903C]
+CSRF check failed for User ID: 2 at /front/ticket.form.php
+2024-05-22 22:15:09 [2@DESKTOP-4FI903C]
+CSRF check failed for User ID: 2 at /front/ticket.form.php
+2024-05-22 22:22:24 [2@DESKTOP-4FI903C]
+CSRF check failed for User ID: 2 at /front/ticket.form.php

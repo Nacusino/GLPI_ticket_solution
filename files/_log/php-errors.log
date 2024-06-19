@@ -1,0 +1,729 @@
+[2024-04-09 14:36:51] glpiphplog.WARNING: Test logger  
+[2024-05-11 23:07:04] glpiphplog.WARNING: Test logger  
+[2024-05-11 20:46:35] glpiphplog.WARNING: Test logger  
+[2024-05-12 00:40:16] glpiphplog.WARNING: Test logger  
+[2024-05-12 22:05:11] glpiphplog.WARNING: Test logger  
+[2024-05-12 22:05:24] glpiphplog.WARNING: Test logger  
+[2024-05-14 23:24:41] glpiphplog.WARNING:   *** PHP Warning (2): include_once(F:/OSPanel/domains/glpi/plugins/fields/vendor/autoload.php): Failed to open stream: No such file or directory in F:\OSPanel\domains\glpi\plugins\fields\setup.php at line 85
+  Backtrace :
+  plugins\fields\setup.php:85                        include_once()
+  src\Plugin.php:320                                 plugin_init_fields()
+  src\Plugin.php:2775                                Plugin::load()
+  src\Search.php:7823                                Plugin::getSpecificValueToDisplay()
+  src\Search.php:1731                                Search::giveItem()
+  src\Search.php:449                                 Search::constructData()
+  src\Search.php:200                                 Search::getDatas()
+  src\Search.php:177                                 Search::showList()
+  front\plugin.php:56                                Search::show()
+  public\index.php:82                                require()
+  
+[2024-05-14 23:24:41] glpiphplog.WARNING:   *** PHP Warning (2): include_once(): Failed opening 'F:/OSPanel/domains/glpi/plugins/fields/vendor/autoload.php' for inclusion (include_path='.') in F:\OSPanel\domains\glpi\plugins\fields\setup.php at line 85
+  Backtrace :
+  plugins\fields\setup.php:85                        include_once()
+  src\Plugin.php:320                                 plugin_init_fields()
+  src\Plugin.php:2775                                Plugin::load()
+  src\Search.php:7823                                Plugin::getSpecificValueToDisplay()
+  src\Search.php:1731                                Search::giveItem()
+  src\Search.php:449                                 Search::constructData()
+  src\Search.php:200                                 Search::getDatas()
+  src\Search.php:177                                 Search::showList()
+  front\plugin.php:56                                Search::show()
+  public\index.php:82                                require()
+  
+[2024-05-14 23:25:33] glpiphplog.WARNING:   *** PHP Warning (2): include_once(F:/OSPanel/domains/glpi/plugins/fields/vendor/autoload.php): Failed to open stream: No such file or directory in F:\OSPanel\domains\glpi\plugins\fields\setup.php at line 85
+  Backtrace :
+  plugins\fields\setup.php:85                        include_once()
+  src\Plugin.php:320                                 plugin_init_fields()
+  src\Plugin.php:917                                 Plugin::load()
+  src\Plugin.php:2992                                Plugin->install()
+  src\MassiveAction.php:1420                         Plugin::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  public\index.php:82                                require()
+  
+[2024-05-14 23:25:33] glpiphplog.WARNING:   *** PHP Warning (2): include_once(): Failed opening 'F:/OSPanel/domains/glpi/plugins/fields/vendor/autoload.php' for inclusion (include_path='.') in F:\OSPanel\domains\glpi\plugins\fields\setup.php at line 85
+  Backtrace :
+  plugins\fields\setup.php:85                        include_once()
+  src\Plugin.php:320                                 plugin_init_fields()
+  src\Plugin.php:917                                 Plugin::load()
+  src\Plugin.php:2992                                Plugin->install()
+  src\MassiveAction.php:1420                         Plugin::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  public\index.php:82                                require()
+  
+[2024-05-14 23:25:34] glpiphplog.WARNING:   *** PHP Warning (2): include_once(F:/OSPanel/domains/glpi/plugins/fields/vendor/autoload.php): Failed to open stream: No such file or directory in F:\OSPanel\domains\glpi\plugins\fields\setup.php at line 85
+  Backtrace :
+  plugins\fields\setup.php:85                        include_once()
+  src\Plugin.php:320                                 plugin_init_fields()
+  src\Plugin.php:2775                                Plugin::load()
+  src\Search.php:7823                                Plugin::getSpecificValueToDisplay()
+  src\Search.php:1731                                Search::giveItem()
+  src\Search.php:449                                 Search::constructData()
+  src\Search.php:200                                 Search::getDatas()
+  src\Search.php:177                                 Search::showList()
+  front\plugin.php:56                                Search::show()
+  public\index.php:82                                require()
+  
+[2024-05-14 23:25:34] glpiphplog.WARNING:   *** PHP Warning (2): include_once(): Failed opening 'F:/OSPanel/domains/glpi/plugins/fields/vendor/autoload.php' for inclusion (include_path='.') in F:\OSPanel\domains\glpi\plugins\fields\setup.php at line 85
+  Backtrace :
+  plugins\fields\setup.php:85                        include_once()
+  src\Plugin.php:320                                 plugin_init_fields()
+  src\Plugin.php:2775                                Plugin::load()
+  src\Search.php:7823                                Plugin::getSpecificValueToDisplay()
+  src\Search.php:1731                                Search::giveItem()
+  src\Search.php:449                                 Search::constructData()
+  src\Search.php:200                                 Search::getDatas()
+  src\Search.php:177                                 Search::showList()
+  front\plugin.php:56                                Search::show()
+  public\index.php:82                                require()
+  
+[2024-05-14 23:25:44] glpiphplog.WARNING:   *** PHP Warning (2): include_once(F:/OSPanel/domains/glpi/plugins/fields/vendor/autoload.php): Failed to open stream: No such file or directory in F:\OSPanel\domains\glpi\plugins\fields\setup.php at line 85
+  Backtrace :
+  plugins\fields\setup.php:85                        include_once()
+  src\Plugin.php:320                                 plugin_init_fields()
+  src\Plugin.php:996                                 Plugin::load()
+  src\Plugin.php:3022                                Plugin->activate()
+  src\MassiveAction.php:1420                         Plugin::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  public\index.php:82                                require()
+  
+[2024-05-14 23:25:44] glpiphplog.WARNING:   *** PHP Warning (2): include_once(): Failed opening 'F:/OSPanel/domains/glpi/plugins/fields/vendor/autoload.php' for inclusion (include_path='.') in F:\OSPanel\domains\glpi\plugins\fields\setup.php at line 85
+  Backtrace :
+  plugins\fields\setup.php:85                        include_once()
+  src\Plugin.php:320                                 plugin_init_fields()
+  src\Plugin.php:996                                 Plugin::load()
+  src\Plugin.php:3022                                Plugin->activate()
+  src\MassiveAction.php:1420                         Plugin::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  public\index.php:82                                require()
+  
+[2024-05-14 23:25:45] glpiphplog.WARNING:   *** PHP Warning (2): include_once(F:/OSPanel/domains/glpi/plugins/fields/vendor/autoload.php): Failed to open stream: No such file or directory in F:\OSPanel\domains\glpi\plugins\fields\setup.php at line 85
+  Backtrace :
+  plugins\fields\setup.php:85                        include_once()
+  src\Plugin.php:320                                 plugin_init_fields()
+  src\Plugin.php:2775                                Plugin::load()
+  src\Search.php:7823                                Plugin::getSpecificValueToDisplay()
+  src\Search.php:1731                                Search::giveItem()
+  src\Search.php:449                                 Search::constructData()
+  src\Search.php:200                                 Search::getDatas()
+  src\Search.php:177                                 Search::showList()
+  front\plugin.php:56                                Search::show()
+  public\index.php:82                                require()
+  
+[2024-05-14 23:25:45] glpiphplog.WARNING:   *** PHP Warning (2): include_once(): Failed opening 'F:/OSPanel/domains/glpi/plugins/fields/vendor/autoload.php' for inclusion (include_path='.') in F:\OSPanel\domains\glpi\plugins\fields\setup.php at line 85
+  Backtrace :
+  plugins\fields\setup.php:85                        include_once()
+  src\Plugin.php:320                                 plugin_init_fields()
+  src\Plugin.php:2775                                Plugin::load()
+  src\Search.php:7823                                Plugin::getSpecificValueToDisplay()
+  src\Search.php:1731                                Search::giveItem()
+  src\Search.php:449                                 Search::constructData()
+  src\Search.php:200                                 Search::getDatas()
+  src\Search.php:177                                 Search::showList()
+  front\plugin.php:56                                Search::show()
+  public\index.php:82                                require()
+  
+[2024-05-14 23:28:02] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "fields" information. in F:\OSPanel\domains\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  front\plugin.php:43                                Plugin->checkStates()
+  public\index.php:82                                require()
+  
+[2024-05-15 19:37:49] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\plugins\taskdrop\ajax\planning.php at line 66
+  Backtrace :
+  public\index.php:82                                require()
+  
+[2024-05-15 19:37:49] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\plugins\taskdrop\ajax\planning.php at line 68
+  Backtrace :
+  public\index.php:82                                require()
+  
+[2024-05-15 19:37:49] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\plugins\taskdrop\ajax\planning.php at line 69
+  Backtrace :
+  public\index.php:82                                require()
+  
+[2024-05-15 19:37:49] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\plugins\taskdrop\ajax\planning.php at line 72
+  Backtrace :
+  public\index.php:82                                require()
+  
+[2024-05-15 19:37:49] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\plugins\taskdrop\ajax\planning.php at line 75
+  Backtrace :
+  public\index.php:82                                require()
+  
+[2024-05-15 19:37:49] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\plugins\taskdrop\ajax\planning.php at line 78
+  Backtrace :
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:39] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in F:\OSPanel\domains\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:39] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:39] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:39] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:44] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in F:\OSPanel\domains\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:44] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:44] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:44] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:46] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in F:\OSPanel\domains\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:46] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:46] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:46] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:48] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in F:\OSPanel\domains\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:48] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:48] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:48] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:49] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in F:\OSPanel\domains\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:49] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:49] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:49] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:50] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in F:\OSPanel\domains\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:50] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:50] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:07:50] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:08:04] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in F:\OSPanel\domains\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:08:04] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:08:04] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:08:04] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:17:38] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in F:\OSPanel\domains\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:17:38] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:17:38] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-15 23:17:38] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in F:\OSPanel\domains\glpi\src\Html.php at line 1126
+  Backtrace :
+  src\Html.php:2070                                  Html::includeHeader()
+  src\DBConnection.php:610                           Html::nullHeader()
+  src\DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc\config.php:129                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:24:25] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  ajax\dashboard.php:136                             Glpi\Dashboard\Dashboard->canViewCurrent()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:24:25] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 376
+  Backtrace :
+  ajax\dashboard.php:141                             Glpi\Dashboard\Dashboard->getFilter()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:24:25] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Glpi\Dashboard\Filter::getForDashboard(): Argument #1 ($dashboards_id) must be of type int, null given, called in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php on line 376 in F:\OSPanel\domains\glpi\src\Dashboard\Filter.php at line 310
+  Backtrace :
+  src\Dashboard\Dashboard.php:376                    Glpi\Dashboard\Filter::getForDashboard()
+  ajax\dashboard.php:141                             Glpi\Dashboard\Dashboard->getFilter()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:24:25] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  ajax\dashboard.php:248                             Glpi\Dashboard\Dashboard->canViewCurrent()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:24:25] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  ajax\dashboard.php:136                             Glpi\Dashboard\Dashboard->canViewCurrent()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:24:25] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 376
+  Backtrace :
+  ajax\dashboard.php:141                             Glpi\Dashboard\Dashboard->getFilter()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:24:25] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: Glpi\Dashboard\Filter::getForDashboard(): Argument #1 ($dashboards_id) must be of type int, null given, called in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php on line 376 in F:\OSPanel\domains\glpi\src\Dashboard\Filter.php at line 310
+  Backtrace :
+  src\Dashboard\Dashboard.php:376                    Glpi\Dashboard\Filter::getForDashboard()
+  ajax\dashboard.php:141                             Glpi\Dashboard\Dashboard->getFilter()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:25:12] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  src\Dashboard\Grid.php:1431                        Glpi\Dashboard\Dashboard->canViewCurrent()
+  src\Dashboard\Grid.php:1461                        Glpi\Dashboard\Grid->restoreLastDashboard()
+  src\Html.php:1337                                  Glpi\Dashboard\Grid::getDefaultDashboardForMenu()
+  src\Html.php:1446                                  Html::getMenuInfos()
+  src\Html.php:1713                                  Html::generateMenuSession()
+  front\central.php:89                               Html::header()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:25:12] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  src\Dashboard\Grid.php:1431                        Glpi\Dashboard\Dashboard->canViewCurrent()
+  src\Dashboard\Grid.php:1461                        Glpi\Dashboard\Grid->restoreLastDashboard()
+  src\Html.php:1338                                  Glpi\Dashboard\Grid::getDefaultDashboardForMenu()
+  src\Html.php:1446                                  Html::getMenuInfos()
+  src\Html.php:1713                                  Html::generateMenuSession()
+  front\central.php:89                               Html::header()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:25:14] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  src\Dashboard\Grid.php:1431                        Glpi\Dashboard\Dashboard->canViewCurrent()
+  src\Dashboard\Grid.php:1461                        Glpi\Dashboard\Grid->restoreLastDashboard()
+  src\Central.php:127                                Glpi\Dashboard\Grid::getDefaultDashboardForMenu()
+  src\Central.php:94                                 Central->showGlobalDashboard()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:25:14] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  src\Dashboard\Grid.php:242                         Glpi\Dashboard\Dashboard->canViewCurrent()
+  src\Central.php:129                                Glpi\Dashboard\Grid->show()
+  src\Central.php:94                                 Central->showGlobalDashboard()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:25:14] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  src\Dashboard\Grid.php:1431                        Glpi\Dashboard\Dashboard->canViewCurrent()
+  src\Dashboard\Grid.php:248                         Glpi\Dashboard\Grid->restoreLastDashboard()
+  src\Central.php:129                                Glpi\Dashboard\Grid->show()
+  src\Central.php:94                                 Central->showGlobalDashboard()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:25:14] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  src\Dashboard\Grid.php:1431                        Glpi\Dashboard\Dashboard->canViewCurrent()
+  src\Dashboard\Grid.php:1461                        Glpi\Dashboard\Grid->restoreLastDashboard()
+  src\Html.php:1337                                  Glpi\Dashboard\Grid::getDefaultDashboardForMenu()
+  src\Dashboard\Grid.php:1051                        Html::getMenuInfos()
+  src\Dashboard\Grid.php:1115                        Glpi\Dashboard\Grid->getMenuItemtypes()
+  src\Dashboard\Grid.php:279                         Glpi\Dashboard\Grid->getAllDasboardCards()
+  src\Central.php:129                                Glpi\Dashboard\Grid->show()
+  src\Central.php:94                                 Central->showGlobalDashboard()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:25:14] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  src\Dashboard\Grid.php:1431                        Glpi\Dashboard\Dashboard->canViewCurrent()
+  src\Dashboard\Grid.php:1461                        Glpi\Dashboard\Grid->restoreLastDashboard()
+  src\Html.php:1338                                  Glpi\Dashboard\Grid::getDefaultDashboardForMenu()
+  src\Dashboard\Grid.php:1051                        Html::getMenuInfos()
+  src\Dashboard\Grid.php:1115                        Glpi\Dashboard\Grid->getMenuItemtypes()
+  src\Dashboard\Grid.php:279                         Glpi\Dashboard\Grid->getAllDasboardCards()
+  src\Central.php:129                                Glpi\Dashboard\Grid->show()
+  src\Central.php:94                                 Central->showGlobalDashboard()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:26:00] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  src\Dashboard\Grid.php:1431                        Glpi\Dashboard\Dashboard->canViewCurrent()
+  src\Dashboard\Grid.php:1461                        Glpi\Dashboard\Grid->restoreLastDashboard()
+  src\Central.php:127                                Glpi\Dashboard\Grid::getDefaultDashboardForMenu()
+  src\Central.php:94                                 Central->showGlobalDashboard()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:26:00] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  src\Dashboard\Grid.php:242                         Glpi\Dashboard\Dashboard->canViewCurrent()
+  src\Central.php:129                                Glpi\Dashboard\Grid->show()
+  src\Central.php:94                                 Central->showGlobalDashboard()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2024-05-19 00:26:00] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in F:\OSPanel\domains\glpi\src\Dashboard\Dashboard.php at line 150
+  Backtrace :
+  src\Dashboard\Grid.php:1431                        Glpi\Dashboard\Dashboard->canViewCurrent()
+  src\Dashboard\Grid.php:248                         Glpi\Dashboard\Grid->restoreLastDashboard()
+  src\Central.php:129                                Glpi\Dashboard\Grid->show()
+  src\Central.php:94                                 Central->showGlobalDashboard()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2024-05-21 14:22:15] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "int" in F:\OSPanel\domains\glpi\plugins\fields\inc\field.class.php at line 615
+  Backtrace :
+  plugins\fields\inc\field.class.php:531             PluginFieldsField->showSummary()
+  src\CommonGLPI.php:694                             PluginFieldsField::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  public\index.php:82                                require()
+  
+[2024-05-21 14:52:06] glpiphplog.WARNING:   *** PHP User Warning (512): Unable to load plugin "invoice" information. in F:\OSPanel\domains\glpi\src\Plugin.php at line 626
+  Backtrace :
+  src\Plugin.php:626                                 trigger_error()
+  src\Plugin.php:505                                 Plugin->checkPluginState()
+  front\marketplace.php:43                           Plugin->checkStates()
+  public\index.php:82                                require()
+  
+[2024-05-22 16:24:25] glpiphplog.CRITICAL:   *** Uncaught Exception Error: mysqli object is already closed in F:\OSPanel\domains\glpi\src\DBmysql.php at line 396
+  Backtrace :
+  src\DBmysql.php:396                                mysqli->query()
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Session.php:971                                DBmysql->request()
+  src\Session.php:1119                               Session::checkValidSessionId()
+  plugins\reports\inc\autoreport.class.php:304       Session::checkRight()
+  ...ports\report\searchinfocom\searchinfocom.php:90 PluginReportsAutoReport->execute()
+  public\index.php:82                                require()
+  
+[2024-05-22 16:24:55] glpiphplog.CRITICAL:   *** Uncaught Exception Error: mysqli object is already closed in F:\OSPanel\domains\glpi\src\DBmysql.php at line 396
+  Backtrace :
+  src\DBmysql.php:396                                mysqli->query()
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Session.php:971                                DBmysql->request()
+  src\Session.php:1119                               Session::checkValidSessionId()
+  plugins\reports\inc\autoreport.class.php:304       Session::checkRight()
+  plugins\reports\report\infocom\infocom.php:240     PluginReportsAutoReport->execute()
+  public\index.php:82                                require()
+  
+[2024-05-22 16:25:01] glpiphplog.CRITICAL:   *** Uncaught Exception Error: mysqli object is already closed in F:\OSPanel\domains\glpi\src\DBmysql.php at line 396
+  Backtrace :
+  src\DBmysql.php:396                                mysqli->query()
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Session.php:971                                DBmysql->request()
+  src\Session.php:1119                               Session::checkValidSessionId()
+  plugins\reports\inc\autoreport.class.php:304       Session::checkRight()
+  plugins\reports\report\infocom\infocom.php:240     PluginReportsAutoReport->execute()
+  public\index.php:82                                require()
+  
+[2024-05-22 16:25:03] glpiphplog.CRITICAL:   *** Uncaught Exception Error: mysqli object is already closed in F:\OSPanel\domains\glpi\src\DBmysql.php at line 396
+  Backtrace :
+  src\DBmysql.php:396                                mysqli->query()
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Session.php:971                                DBmysql->request()
+  src\Session.php:1119                               Session::checkValidSessionId()
+  plugins\reports\inc\autoreport.class.php:304       Session::checkRight()
+  plugins\reports\report\infocom\infocom.php:240     PluginReportsAutoReport->execute()
+  public\index.php:82                                require()
+  
+[2024-05-22 17:21:35] glpiphplog.CRITICAL:   *** Uncaught Exception Error: mysqli object is already closed in F:\OSPanel\domains\glpi\src\DBmysql.php at line 396
+  Backtrace :
+  src\DBmysql.php:396                                mysqli->query()
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Session.php:971                                DBmysql->request()
+  src\Session.php:1119                               Session::checkValidSessionId()
+  plugins\reports\inc\autoreport.class.php:304       Session::checkRight()
+  ...ports\report\searchinfocom\searchinfocom.php:90 PluginReportsAutoReport->execute()
+  public\index.php:82                                require()
+  
+[2024-05-22 17:21:44] glpiphplog.CRITICAL:   *** Uncaught Exception Error: mysqli object is already closed in F:\OSPanel\domains\glpi\src\DBmysql.php at line 396
+  Backtrace :
+  src\DBmysql.php:396                                mysqli->query()
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Session.php:971                                DBmysql->request()
+  src\Session.php:1119                               Session::checkValidSessionId()
+  plugins\reports\inc\autoreport.class.php:304       Session::checkRight()
+  ...ins\reports\report\listgroups\listgroups.php:66 PluginReportsAutoReport->execute()
+  public\index.php:82                                require()
+  
+[2024-05-22 17:22:00] glpiphplog.CRITICAL:   *** Uncaught Exception Error: mysqli object is already closed in F:\OSPanel\domains\glpi\src\DBmysql.php at line 396
+  Backtrace :
+  src\DBmysql.php:396                                mysqli->query()
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Session.php:971                                DBmysql->request()
+  src\Session.php:1119                               Session::checkValidSessionId()
+  plugins\reports\inc\autoreport.class.php:304       Session::checkRight()
+  plugins\reports\report\infocom\infocom.php:240     PluginReportsAutoReport->execute()
+  public\index.php:82                                require()
+  
+[2024-05-29 10:02:23] glpiphplog.WARNING: Test logger  
+[2024-05-29 10:03:03] glpiphplog.WARNING: Test logger  
+[2024-05-29 10:18:36] glpiphplog.WARNING: Test logger  
+[2024-05-29 10:18:49] glpiphplog.WARNING: Test logger  
+[2024-05-29 10:20:07] glpiphplog.WARNING: Test logger  
+[2024-05-29 10:20:17] glpiphplog.WARNING: Test logger  
+[2024-05-29 10:36:35] glpiphplog.WARNING: Test logger  
+[2024-05-29 10:36:38] glpiphplog.WARNING: Test logger  
